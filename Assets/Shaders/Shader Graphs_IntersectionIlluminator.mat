@@ -55,11 +55,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Intersection_Power: 1
+    - _Alpha_Clip_Threshold: 0.028
+    - _Intersection_Power: 3.4
     - _Occlusion_Strength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Base_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Highlight_Color: {r: 6.422233, g: 6.422233, b: 6.422233, a: 1}
+    - _Highlight_Color: {r: 89.45409, g: 89.45409, b: 89.45409, a: 1}
   m_BuildTextureStacks: []
