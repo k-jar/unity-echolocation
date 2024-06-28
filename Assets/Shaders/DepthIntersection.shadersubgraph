@@ -28,7 +28,11 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "b72c8b7773b0430cbd1e0df30917f5d5"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -395,6 +399,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "b72c8b7773b0430cbd1e0df30917f5d5",
+    "m_Title": "Calculation",
+    "m_Content": "Intersection Depth = (Behind Object Distance) - (Current Object Distance)",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -167.0,
+        "y": -346.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
