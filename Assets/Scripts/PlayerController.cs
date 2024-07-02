@@ -78,4 +78,13 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
     }
+    private void OnParticleCollision(GameObject other)
+    {
+        Debug.Log("Player collided with " + other.name);
+        if (other.CompareTag("ObjectNoise"))
+        {
+            Debug.Log("Inside if statement");
+            other.GetComponentInParent<NoisyObjectController>().TemporarilyActivate();
+        }
+    }
 }
